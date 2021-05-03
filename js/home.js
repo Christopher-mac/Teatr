@@ -10,8 +10,8 @@ const header = gsap.timeline({
 header.from(navlink, 1, {opacity: 0, display:'none'})
 
 
-const nextIcon = '<img src="../img/next.svg" alt"right">';
-const prevIcon = '<img src="../img/prev.svg" alt"right">';
+const nextIcon = '<img src="img/next.svg" alt"right">';
+const prevIcon = '<img src="img/prev.svg" alt"right">';
 $('.owl-carousel').owlCarousel({
      loop:true,
      margin:10,
