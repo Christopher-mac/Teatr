@@ -364,4 +364,19 @@ section .partnerzy img {
   margin-bottom: 20px;
 }
 
+@media only screen and (max-width: 900px) {
+  section h1 {
+    margin-top: 24px;
+  }
+  section h5 {
+    margin-top: 48px;
+  }
+  section .partnerzy {
+    flex-direction: column;
+  }
+  section .partnerzy img {
+    margin: 12px;
+  }
+}
+
 /*# sourceMappingURL=partf.css.map */

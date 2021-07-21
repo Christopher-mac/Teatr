@@ -232,7 +232,7 @@ section .content .left {
   transition: 250ms;
 }
 section .content .left .l_img {
-  width: 244px;
+  max-width: 244px;
 }
 section .content .left .txt {
   max-width: 544px;
@@ -409,9 +409,31 @@ section .content .left:hover .txt img {
 }
 
 @media only screen and (max-width: 900px) {
+  section h1 {
+    margin-top: 20px;
+  }
   section .content {
     grid-template-columns: repeat(1, 1fr);
     padding: 0;
+  }
+  section .content .left {
+    flex-direction: column;
+  }
+  section .content .left .l_img {
+    max-width: 400px;
+  }
+  section .content .left .l_img img {
+    width: 100%;
+  }
+  section .content .left .txt {
+    padding: 15px 0;
+  }
+  section .div {
+    margin-top: 20px;
+    display: flex;
+  }
+  section .bottom_a {
+    margin: auto;
   }
 }
 

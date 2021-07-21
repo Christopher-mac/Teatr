@@ -454,4 +454,55 @@ section .partnerzy img {
   margin-bottom: 20px;
 }
 
+@media only screen and (max-width: 900px) {
+  section h1 {
+    margin-top: 24px;
+  }
+  section .partnerzy {
+    flex-direction: column;
+  }
+  section .partnerzy img {
+    margin: 12px;
+  }
+  section .content {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0;
+    margin-top: 24px;
+  }
+  section .content .left {
+    grid-template-columns: repeat(1, 1fr);
+    max-height: 800px;
+  }
+
+  .fotter {
+    flex-direction: column;
+    height: 150vh;
+  }
+  .fotter .fbg1 {
+    z-index: 4;
+  }
+  .fotter .fbg1 .cont {
+    padding: 96px 0;
+  }
+  .fotter .fbg1 .fbg1_fotter {
+    padding: 0;
+  }
+  .fotter .fbg2 {
+    width: 100%;
+  }
+  .fotter .fbg2 .circle {
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    right: -100px;
+  }
+  .fotter .fbg2 .circle .square_c {
+    width: 100px;
+    height: 100px;
+  }
+  .fotter .fbg2 .fbg2_fotter .sq {
+    width: 80px;
+  }
+}
+
 /*# sourceMappingURL=programfestiwalu_poj.css.map */

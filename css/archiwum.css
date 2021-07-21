@@ -261,7 +261,7 @@ section .content .left .l_img {
 }
 section .content .left .txt {
   max-width: 544px;
-  padding: 24px;
+  padding: 48px;
   align-self: baseline;
 }
 section .content .left .txt .overline {
@@ -278,7 +278,7 @@ section .content .left .txt p {
 }
 section .content .left .txt h6 {
   margin-top: 0;
-  margin-bottom: 24px;
+  margin-bottom: 48px;
   font-size: 20px;
   font-weight: 800;
   color: #161616;
@@ -434,9 +434,41 @@ section .content .left:hover .txt img {
 }
 
 @media only screen and (max-width: 900px) {
+  section h1 {
+    margin-top: 20px;
+  }
+  section .year {
+    flex-wrap: wrap;
+    margin-top: 24px;
+  }
+  section .year a {
+    margin: 10px;
+  }
+  section h6 {
+    margin-top: 48px;
+  }
   section .content {
     grid-template-columns: repeat(1, 1fr);
     padding: 0;
+  }
+  section .content .left {
+    flex-direction: column;
+  }
+  section .content .left .l_img {
+    max-width: 400px;
+  }
+  section .content .left .l_img img {
+    width: 100%;
+  }
+  section .content .left .txt {
+    padding: 15px 0;
+  }
+  section .div {
+    margin-top: 20px;
+    display: flex;
+  }
+  section .bottom_a {
+    margin: auto;
   }
 }
 

@@ -428,4 +428,15 @@ section h1 {
   margin-bottom: 20px;
 }
 
+@media only screen and (max-width: 900px) {
+  section h1 {
+    margin-top: 20px;
+  }
+
+  .bg section .content, .bb section .content {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0;
+  }
+}
+
 /*# sourceMappingURL=biogramy.css.map */

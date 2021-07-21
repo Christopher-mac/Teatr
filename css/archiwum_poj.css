@@ -438,4 +438,22 @@ section .prev_next .next .arrow {
   margin-bottom: 20px;
 }
 
+@media only screen and (max-width: 900px) {
+  section h1 {
+    margin-top: 20px;
+  }
+  section .content {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0;
+  }
+  section .prev_next .prev .arrow {
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+  section .prev_next .next .arrow {
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+}
+
 /*# sourceMappingURL=archiwum_poj.css.map */
